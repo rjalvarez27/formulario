@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulario</h1>
+    <form action="" method="" id="form">
+        <ol>
+          <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="user_mail" />
+          </li>
+          <li>
+            <label for="age">Edad:</label>
+            <input  type="number" id="age" name="edad"></input>
+          </li>
+          <li>
+            <label for="fAge">Fecha de Nacimiento (dd-mm-yyyy): </label>
+            <input id="fAge" type="text" name="nacimiento"></input>
+          </li>
+          <li>
+            <label for="idd">Cedula de Identidad:</label>
+            <input id="idd" name="cedula" type="text"></input>
+          </li>
+          <li>
+            <label for="dIp">Direccion Ip:</label>
+            <input id="dIp" type="text" name="ip"></input>
+          </li>
+          <li>
+            <label for="dMc">Direccion MAC:</label>
+            <input id="dMc" name="mac" type="text"></input>
+          </li>
+          <li>
+            <label for="phone">Numero de Telefono:</label>
+            <input id="phone" name="telephone" type="text"></input>
+          </li>
+        </ol>  
+          <div>
+            <button type="submit">Enviar</button>
+            <p class="warnings" id="alerta"></p>
+          </div>
+      </form>
+      <script src="main.js"></script>
+</body>
+</html>

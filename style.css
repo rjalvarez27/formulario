@@ -1,0 +1,17 @@
+
+
+h1{
+    text-align: center;
+}
+
+#form {
+    height: 230px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    list-style: none;
+    text-align: center;
+}
+
+
+
